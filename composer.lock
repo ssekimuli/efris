@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "ed081ff86a9a8a8fc965ec85a70b7111",
     "packages": [
         {
             "name": "brick/math",
@@ -1825,6 +1825,67 @@
                 }
             ],
             "time": "2024-01-28T23:22:08+00:00"
+        },
+        {
+            "name": "mhassan654/uraefrisapi",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhassan654/uraefrisapi.git",
+                "reference": "0542decebbe1c64c51993d3460aa9aacae43d824"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhassan654/uraefrisapi/zipball/0542decebbe1c64c51993d3460aa9aacae43d824",
+                "reference": "0542decebbe1c64c51993d3460aa9aacae43d824",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.4|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mhassan654\\Uraefrisapi\\UraefrisapiServiceProvider"
+                    ],
+                    "aliases": {
+                        "Uraefrisapi": "Mhassan654\\Uraefrisapi\\UraefrisapiFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Helpers/TaxPayer.php"
+                ],
+                "psr-4": {
+                    "Mhassan654\\Uraefrisapi\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MUWONGE HASSAN",
+                    "email": "hassansaava@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "URA Efris api",
+            "homepage": "https://github.com/mhassan654/uraefrisapi",
+            "keywords": [
+                "mhassan654",
+                "uraefrisapi"
+            ],
+            "support": {
+                "issues": "https://github.com/mhassan654/uraefrisapi/issues",
+                "source": "https://github.com/mhassan654/uraefrisapi/tree/v1.4.0"
+            },
+            "abandoned": true,
+            "time": "2023-06-26T14:17:05+00:00"
         },
         {
             "name": "monolog/monolog",
